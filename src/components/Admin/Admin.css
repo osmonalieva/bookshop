@@ -1,0 +1,73 @@
+.create-info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.create {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+}
+
+.input-file {
+    display: none;
+}
+
+.input-file + label {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.prodInfo input[type="text"],
+.prodInfo select,
+.prodInfo textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.prodInfo select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5H7z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    padding-right: 30px;
+}
+
+.prodInfo textarea {
+    resize: vertical;
+}
+
+.prodInfo button {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.prodInfo button{
+    padding: 15px 40px;
+    background-color: #0b0283;
+}

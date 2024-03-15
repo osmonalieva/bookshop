@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Admin.css";
-import { useContext } from "../../context/ProductContext";
+import { useMainContext } from "../../context/ProductContext";
 
 const Admin = () => {
-  const { addProduct } = useContext();
+  const { addProduct } = useMainContext();
 
   const [values, setValues] = useState({
     img: "",
@@ -11,6 +11,7 @@ const Admin = () => {
     cat: "",
     price: "",
     descr: "",
+    id : Date.now(),
   });
 
   const handleChange = (e) => {
@@ -38,7 +39,7 @@ const Admin = () => {
       <div className="create-info">
         <div className="container">
           <div className="create">
-            <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit}>
               <div className="input-wrapper">
                 <input
                   type="text"

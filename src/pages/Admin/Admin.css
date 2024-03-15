@@ -2,6 +2,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+  
 }
 
 
@@ -46,7 +47,6 @@
 
 .prodInfo select {
     appearance: none;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5H7z"/></svg>');
     background-repeat: no-repeat;
     background-position: right 8px center;
     padding-right: 30px;

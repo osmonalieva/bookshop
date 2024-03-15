@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./hero.css";
-import { useContext } from "../../context/ProductContext";
-import Product from "../Product/Product";
+import { useMainContext } from "../../context/ProductContext";
+import Kategory from "../Kategory/Kategory";
 
 const Hero = () => {
   const [imgs, setImgs] = useState(0);
@@ -20,18 +20,18 @@ const Hero = () => {
     return () => clearTimeout(interval);
   }, [imgs]);
 
-  const { readProduct } = useContext();
+  const { readProduct,product } = useMainContext();
 
   useEffect(() => {
     readProduct();
-  }, []);
+  }, [product]);
 
   return (
     <div id="hero">
       <div className="hero">
         <img className="imgess" src={bakdrop[imgs]} alt="" />
-        <Product />
       </div>
+      <Kategory/>
     </div>
   );
 };

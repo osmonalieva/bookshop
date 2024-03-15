@@ -1,20 +1,13 @@
 import React from "react";
-import Hero from "../components/Hero/Hero";
+import Hero from "../pages/Hero/Hero";
 import { Route, Routes } from "react-router-dom";
-import Admin from "../components/Admin/Admin";
+import Admin from "../pages/Admin/Admin";
+import Kategory from "../pages/Kategory/Kategory";
 
 const MyRoyte = () => {
   const ROUTE = [
-    {
-      path: "/",
-      element: <Hero />,
-      key: 1,
-    },
-    {
-      path: "/admin",
-      element: <Admin />,
-      key: 1,
-    },
+    {path: "/",element: <Hero />,key: 1,},
+    {path: "/admin",element: <Admin />,key: 2,},
   ];
   return (
     <Routes>

@@ -1,7 +1,6 @@
 import React from "react";
 import { SlBasket } from "react-icons/sl";
 import "./Header.css";
-import { CiSearch } from "react-icons/ci";
 import { MdPerson } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 

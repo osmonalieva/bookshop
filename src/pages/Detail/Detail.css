@@ -1,0 +1,58 @@
+.detaile {
+	display: flex;
+	align-items: start;
+	justify-content: start;
+	gap: 30px;
+}
+
+.detaileH3 {
+	margin: 40px 0;
+}
+
+.detaile img {
+	width: 650px;
+	object-fit: cover;
+	height: 800px;
+}
+
+.detaile h3 {
+	font-family: Nunito;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 49px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #010049;
+}
+
+.detaile h4 {
+	font-family: Nunito;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 49px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #010049;
+	margin: 15px 0;
+}
+
+.detaile p {
+	width: 558px;
+	height: 88px;
+}
+.baskets {
+	padding: 10px 25px;
+	margin-top: auto;
+	border: none;
+	border-radius: 5px;
+	background-color: #010049;
+	color: rgb(247, 251, 251);
+}
+.now {
+	padding: 10px 25px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #010049;
+	color: rgb(247, 251, 251);
+}

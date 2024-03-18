@@ -11,7 +11,6 @@ const Admin = () => {
     cat: "",
     price: "",
     descr: "",
-    id : Date.now(),
   });
 
   const handleChange = (e) => {
@@ -39,7 +38,7 @@ const Admin = () => {
       <div className="create-info">
         <div className="container">
           <div className="create">
-                <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
               <div className="input-wrapper">
                 <input
                   type="text"
@@ -81,9 +80,7 @@ const Admin = () => {
                   cols="30"
                   rows="10"
                 ></textarea>
-                <button type="submit">
-                  SAVE
-                </button>
+                <button type="submit">SAVE</button>
               </div>
             </form>
           </div>

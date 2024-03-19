@@ -159,6 +159,14 @@
       "cat": "",
       "price": "800",
       "descr": ""
+    },
+    {
+      "id": "1e30",
+      "img": "https://glstatic.rg.ru/uploads/images/2016/04/19/a2ed2b7995ca64c.jpg",
+      "name": "Распутин",
+      "cat": "",
+      "price": "600",
+      "descr": ""
     }
   ]
 }

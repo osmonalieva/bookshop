@@ -1,80 +1,99 @@
-#kategory{
-    margin-top: 30px;
-    .kategory{
-        .main{
-            h4{
-                margin: 20px 20px;
-                font-size: 20px;
-                color: black;
-                font-weight: 700;
-            }
-        }
-        .main2{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-           .mainBlock{
-  
-            img{
-                position: relative;
-                width: 350px;
-                height: 232px;
-                object-fit: cover;
-                border-radius: 17px;
+#kategory {
+	margin-top: 30px;
+	.kategory {
+		.main {
+			h4 {
+				margin: 20px 20px;
+				font-size: 20px;
+				color: black;
+				font-weight: 700;
+			}
+		}
+		.main2 {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			.mainBlock {
+				img {
+					position: relative;
+					width: 350px;
+					height: 232px;
+					object-fit: cover;
+					border-radius: 17px;
+				}
+				h3 {
+					position: absolute;
+					font-size: 20px;
+					color: white;
+					top: 1200px;
+					margin-left: 20px;
+				}
+			}
+		}
+	}
+	.sorting {
+		display: flex;
+		align-content: center;
+		justify-content: space-between;
+		margin-top: 40px;
+		gap: 20px;
+		.rr {
+			h2 {
+				font-size: 40px;
+				font-weight: 700;
+			}
+		}
+		.tt {
+			.select {
+				padding: 10px 20px;
+			}
+		}
+	}
+	.card {
+		display: grid;
+		grid-template-columns: repeat(5, 20%);
+		row-gap: 200px;
+		gap: 20px;
+		margin-top: 40px;
+		.cardBLock {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.cardBox {
+			display: flex;
+			img {
+				width: 250px;
+				height: 300px;
+				object-fit: cover;
+				border-radius: 10px;
+			}
+			h1 {
+				font-size: 20px;
+				font-weight: 700;
+				color: black;
+			}
+			p {
+				font-size: 18px;
+				font-weight: 500;
+				color: black;
+			}
 
-            }
-            h3{
-                position: absolute;
-                font-size: 20px;
-                color: white;
-                top: 1200px;
-                margin-left: 20px;
-            }
-        }
-    }
-}
-.sorting{
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    margin-top: 40px;
-    gap: 20px;
-  .rr{
-    h2{
-        font-size: 40px;
-        font-weight: 700;
-    }
-  }
-  .tt{
-    .select{
-    padding: 10px 20px;
-
-    }
-  }
-}      
-.card{
-  display: grid;
-  grid-template-columns: repeat(5,20%);
-  row-gap: 200px;
-  gap: 20px;
-  margin-top: 40px;
-  .cardBox{
-      img{
-          width: 250px;
-          height: 300px;
-          object-fit: cover;
-          border-radius: 10px;
-      }
-      h1{
-          font-size: 20px;
-          font-weight: 700;
-          color: black;
-      }
-      p{
-          font-size: 18px;
-          font-weight: 500;
-          color:black
-      }
-  }
-}
+			button {
+				padding: 5px 10px;
+				border: none;
+				background-color: rgb(36, 35, 35);
+				color: aliceblue;
+				border-radius: 3px;
+			}
+		}
+	}
+	.btnAdd {
+		padding: 10px 35px;
+		border: none;
+		color: white;
+		background-color:#010049;
+		border-radius: 5px;
+		margin-left: 750px;
+	}
 }
